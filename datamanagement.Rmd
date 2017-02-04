@@ -12,7 +12,7 @@ output:
 
 ## Transcripts
 
-- Express Scribe [http://www.nch.com.au/scribe/index.html](http://www.nch.com.au/scribe/index.html)
+- Express Scribe http://www.nch.com.au/scribe/index.html
 
 Reminders. Use...
 
@@ -29,12 +29,12 @@ Reminders. Use...
 
 - Webscraping: 
 
-    - with graphical interface, e.g: [http://import.io](http://import.io), 
-    - with scripting, e.g.: [https://scrapy.org](https://scrapy.org)
+    - with graphical interface, e.g: http://import.io
+    - with scripting, e.g.: https://scrapy.org
 
-- Internet Archive wayback machine: [https://web.archive.org/](https://web.archive.org/)
+- Internet Archive wayback machine: https://web.archive.org/
 
-- Stanford Web archiving service:  [https://library.stanford.edu/projects/web-archiving](https://library.stanford.edu/projects/web-archiving)
+- Stanford Web archiving service: https://library.stanford.edu/projects/web-archiving
 
 - Make your own website "archivable":
 
@@ -70,7 +70,7 @@ Includes description of
 
 More on Stanford's DMP tool:
 
-[https://library.stanford.edu/research/data-management-services/data-management-plans](https://library.stanford.edu/research/data-management-services/data-management-plans)
+https://library.stanford.edu/research/data-management-services/data-management-plans
 
 
 ## Document-level
@@ -155,14 +155,14 @@ Elements you might include in a naming system:
 
 Windows:
 
-- Ant Renamer: [www.antp.be/software/renamer](www.antp.be/software/renamer)
-- RenameIT: [sourceforge.net/prpjects/renameit](sourceforge.net/prpjects/renameit)
-- Bulk Rename Utility: [www.bulkrenameutility.co.uk/](www.bulkrenameutility.co.uk/)
+- Ant Renamer: http://www.antp.be/software/renamer
+- RenameIT: https://sourceforge.net/projects/renameit/
+- Bulk Rename Utility: http://www.bulkrenameutility.co.uk/
 
 Mac: 
 
-- Renamer4Mac: [renamer4mac.com/](renamer4mac.com/)
-- Name Changer: [mrrsoftware.com/namechanger/](mrrsoftware.com/namechanger/)
+- Renamer4Mac: http://renamer.com
+- Name Changer: https://mrrsoftware.com/namechanger/
 
 ## File Organization
 
@@ -283,8 +283,8 @@ Examples:
  - M. Kohrman: [Cigarette Citadels](http://web.stanford.edu/group/tobaccoprv/cgi-bin/map/) 
  - T. Mullaney: Grave Reform in Modern China (preview)
  - C. Blevins: [Geography of the Post](http://cameronblevins.org/gotp/)
- - Z. Frank: Slave Market in Rio de Janeiro: [http://purl.stanford.edu/wt635jq5834](http://purl.stanford.edu/wt635jq5834)  
- (Interactive Visualization: [https://cengel.shinyapps.io/RioSlaveMarket/](https://cengel.shinyapps.io/RioSlaveMarket/))
+ - Z. Frank: Slave Market in Rio de Janeiro: http://purl.stanford.edu/wt635jq5834
+ (Interactive Visualization: https://cengel.shinyapps.io/RioSlaveMarket/ )
  - N. Bauch: [Enchanting the Desert](http://sup.org/books/title/?id=25726)
 
 
@@ -325,7 +325,7 @@ When it is necessary to save files in a proprietary format, consider including a
 | Web archive: |  WARC |
 
 
-Library of Congress recommended formats stamenent [http://www.loc.gov/preservation/resources/rfs/](http://www.loc.gov/preservation/resources/rfs/)
+Library of Congress recommended formats statement http://www.loc.gov/preservation/resources/rfs/
 
 ## Stanford Digital Repository (SDR)
 
