@@ -1,6 +1,6 @@
 ---
 title: "Data Management (ANTHRO 400)"
-author: "Claudia A Engel"
+author: "Online at http://bit.ly/dm-anthro - cengel @ stanford"
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: 
   pdf_document: 
