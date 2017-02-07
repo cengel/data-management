@@ -175,14 +175,9 @@ Use a well designed folder structure, e.g. organized by
 - site
 - unique ID
 
-For non-digital objects consider creating an index
+Design around a workflow.
 
-## Data repo tools (?) <<<<
-
-- image repos
-- document repos 
-- spatial data
-- html/web stuff
+For non-digital objects consider creating an index.
 
 
 # Use
@@ -205,13 +200,16 @@ To locally search your computer:
 ## Count
 
 - Spreadsheet
+- SPSS
 - R
 
 
-## Visualize  <<<<
+## Visualize
 
-Some visualization tools for exploratory analysis...
-
+- Palladio: http://hdlab.stanford.edu/palladio/
+- Voyant for texts: http://voyant-tools.org
+- Gephi for networks: http://gephi.org
+- Carto for maps: https://stanford.carto.com/
 
 
 # Store
@@ -280,12 +278,12 @@ For example:
 
 Examples:
 
- - M. Kohrman: [Cigarette Citadels](http://web.stanford.edu/group/tobaccoprv/cgi-bin/map/) 
- - T. Mullaney: Grave Reform in Modern China (preview)
- - C. Blevins: [Geography of the Post](http://cameronblevins.org/gotp/)
- - Z. Frank: Slave Market in Rio de Janeiro: http://purl.stanford.edu/wt635jq5834
+- M. Kohrman: Cigarette Citadels - http://web.stanford.edu/group/tobaccoprv/cgi-bin/map/
+- T. Mullaney: Grave Reform in Modern China (under development)
+- C. Blevins: Geography of the Post - http://cameronblevins.org/gotp/
+- N. Bauch: Enchanting the Desert - http://sup.org/books/title/?id=25726
+- Z. Frank: Slave Market in Rio de Janeiro: - http://purl.stanford.edu/wt635jq5834
  (Interactive Visualization: https://cengel.shinyapps.io/RioSlaveMarket/ )
- - N. Bauch: [Enchanting the Desert](http://sup.org/books/title/?id=25726)
 
 
 # Preserve
@@ -300,11 +298,11 @@ When it is necessary to save files in a proprietary format, consider including a
 
 **Guidelines for choosing formats**
 
-- Non-proprietary if possible
-- Unencrypted
-- Uncompressed
-- Common within the research community
-- Interoperable among diverse platforms and applications
+- __Non-proprietary__ if possible
+- __Unencrypted__
+- __Uncompressed__
+- __Common__ within the research community
+- __Interoperable__ among diverse platforms and applications
 - Fully published and available royalty-free
 - Fully and independently implementable by multiple software providers on multiple platforms without any intellectual property restrictions for necessary technology
 - Developed and maintained by an open standards organization with a well-defined inclusive process for evolution of the standard
@@ -321,7 +319,7 @@ When it is necessary to save files in a proprietary format, consider including a
 | Statistics: |  ASCII, DTA, POR, SAS, SAV |
 | Still images: |  TIFF, JPEG 2000, PDF, PNG, GIF, BMP |
 | Tabular data: |  CSV |
-| Text: |  XML, PDF/A, HTML, ASCII, UTF-8 |
+| Text: |  XML, PDF, HTML, ASCII, UTF-8 |
 | Web archive: |  WARC |
 
 
