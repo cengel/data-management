@@ -29,7 +29,8 @@ Reminders. Use...
 
 - Webscraping: 
 
-    - with graphical interface, e.g: http://import.io
+    - with graphical interface, e.g: http://import.io 
+    - browser extension: Ncapture http://help-ncapture.qsrinternational.com/desktop/welcome/welcome.htm (with NVivo 10 or later)
     - with scripting, e.g.: https://scrapy.org
 
 - Internet Archive wayback machine: https://web.archive.org/
@@ -38,17 +39,17 @@ Reminders. Use...
 
 - Make your own website "archivable":
 
-> **Maintain stable links** either through redirects or by not changing web addresses.
+    - **Maintain stable links** either through redirects or by not changing web addresses.
 
-> **Conform to web standards**: To increase the chance that future browsers will be able to interpret today's code, validate against current web standards.
+    - **Conform to web standards**: To increase the chance that future browsers will be able to interpret today's code, validate against current web standards.
 
-> **Use durable data formats**: The the tacit user base of common web formats tends to ensure those formats' continued support, making a format's popularity a good heuristic for durability. Prefer open formats or at least those that can be read using open-source software. 
+    -  **Use durable data formats**: The the tacit user base of common web formats tends to ensure those formats' continued support, making a format's popularity a good heuristic for durability. Prefer open formats or at least those that can be read using open-source software. 
 
-> **Follow web accessibility best practices** may be a legal mandate or organizational priority and critically ensures the usability. Providing equivalent text for non-textual content can also facilitate both search crawler indexing and later full-text search in the archive.
+    - **Follow web accessibility best practices** may be a legal mandate or organizational priority and critically ensures the usability. Providing equivalent text for non-textual content can also facilitate both search crawler indexing and later full-text search in the archive.
 
-> **Report media type and character encoding** by adding a HTTP Content-Type response header or page-level http-equiv <META> tags.
+    - **Report media type and character encoding** by adding a HTTP Content-Type response header or page-level http-equiv <META> tags.
 
-> **Use responsive design** ensures that archive users will continue to have a comparable experience of the original website, regardless of the platform they use for access.
+    - **Use responsive design** ensures that archive users will continue to have a comparable experience of the original website, regardless of the platform they use for access.
 
 
 # Document and Organize 
@@ -73,7 +74,7 @@ More on Stanford's DMP tool:
 https://library.stanford.edu/research/data-management-services/data-management-plans
 
 
-## Document-level
+## Document-level documentation
 
 - explanation or definition of codes and classification schemes
 - definitions of specialist terminology or acronyms
@@ -107,33 +108,27 @@ Typically used for __resource discovery__, providing searchable information that
 
 Best practices:
 
-- Do not use generic file names that may conflict when moved from one location to another. Ensure filenames are independent of location and if you work on more than one computer ensure that your files are synchronized.
+- Do not use generic file names that may conflict when moved from one location to another. If you work on more than one computer ensure that your files are synchronized.
+
+- Files should be distinguishable from each other within their containing folder. Make file names unique, if possible.
 
 - File names should outlast the file creator who originally named the file.
 
-- Consider how scalable your file naming policy needs to be e.g. if you want to include the project number, don't limit your project number to two digits, or you can only have ninety nine projects.
+- Consider how scalable your file naming policy needs to be e.g. if you want to include the interview number, don't limit that number to one digit, or you can only have 9 interviews.
 
-- Keep file names short and relevant - generally about 25 characters is a sufficient length to capture enough descriptive information for naming a data file
+- Keep file names short and relevant - generally about 25 characters is a sufficient length to capture enough descriptive information for naming a data file.
  
-- Do not use special characters in a filename such as : & * % $ £ ] { ! @ as these are often used for specific tasks in different operating systems
+- Do not use special characters in a filename such as : & * % $ £ ] { ! @ as these are often used for specific tasks in different operating systems.
 
-- Use underscores instead of full-stops or spaces because, like special characters, these are parsed differently on different systems.
-
-- The filename should include as much descriptive information as necessary to assist identification independent of where it is stored.
-
-- Files should be distinguishable from each other within their containing folder
+- Use underscores (_) instead of full-stops or spaces because, like special characters, these are parsed differently on different systems.
 
 - Try to find a naming convention where files can be sorted in a logical sequence (for example by adding the date at the beginning as `YYYY-MM-DD`).
-
-- Make file names unique, if possible.
 
 - If including dates, format them consistently `2010-08-11_interview_Jane_Doe`
 
 - Assume that `FILENAME`, `filename` and `Filename` are the same, even though some file systems consider them as different.
 
 - Where possible, use file extensions (often defaults) to accurately reflect the software environment in which the file was created and the physical format of the file. Eg use `.xls` or `.xlsx` for Excel files, `.txt` for text files, etc.
-
-- Mark different versions, if applicable.
 
 
 Elements you might include in a naming system:
@@ -155,14 +150,22 @@ Elements you might include in a naming system:
 
 Windows:
 
-- Ant Renamer: http://www.antp.be/software/renamer
-- RenameIT: https://sourceforge.net/projects/renameit/
-- Bulk Rename Utility: http://www.bulkrenameutility.co.uk/
+- Ant Renamer (free): http://www.antp.be/software/renamer
+- RenameIT (free): https://sourceforge.net/projects/renameit/
+- Bulk Rename Utility (free): http://www.bulkrenameutility.co.uk/
 
 Mac: 
 
-- Renamer4Mac: http://renamer.com
-- Name Changer: https://mrrsoftware.com/namechanger/
+- Renamer4Mac ($19.99): http://renamer.com
+- Name Changer (free): https://mrrsoftware.com/namechanger/
+
+
+## Versioning
+
+- Use the file name to mark different versions of the same file: `file_v1`, `file _v2`, etc.
+- Use Google Doc to track revision history of a file and/or edit in suggesting mode
+- Use a fully fledged versioning system: RiouxSVN https://riouxsvn.com or git https://git-scm.com (http://github.com/)
+
 
 ## File Organization
 
@@ -188,13 +191,16 @@ To locally search your computer:
 
 - Get to know Mac Finder and Spotlight: https://www.lifewire.com/use-mac-finder-2260739
 - Get to know Windows Search: http://www.makeuseof.com/tag/top-7-windows-search-tricks-search-ninja/
-- Explore alternative search tools: https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines
+- Explore alternative search tools:
+    - Easyfind (Mac) https://itunes.apple.com/us/app/easyfind/id411673888?mt=12
+    - https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines
 
 ## Code
 
 - NVivo
 - Atlas.ti
 - Dedoose
+- (Scrivner)
 
 
 ## Count
@@ -217,41 +223,37 @@ To locally search your computer:
 ## Backup
 
 
-What shoud I back up?  
+_What shoud I back up?_   
 Depending on the characteristics of a file and how critical it is (master copy) you may only want to back-up particular files or the entire computer system (complete system image) 
 
-How often should I back up?  
+_How often should I back up?_  
 Depending how much you are willing to risk to loose you want to backup after each change to a data file or at regular intervals. There are two common types of backup:
 
 - An _incremental backup_ is one in which successive copies of the data contain only that portion that has changed since the __preceding__ backup copy was made. When a full recovery is needed, the restoration process would need the last full backup plus __all the incremental backups__ until the point of restoration. 
 - A _differential backup_ is a cumulative backup of all changes made since the last __full__ backup. The advantage to this is the quicker recovery time, requiring only the last full backup and __the last differential backup__ to restore the entire data repository. 
  
 
-What file formats should I back up in?  
+_What file formats should I back up in?_  
 Back-ups of master copies should ideally be in file formats that are suitable for long-term digital preservation, that is open as opposed to proprietary formats.
 
-Where should I store my back-ups?  
+_Where should I store my backups?_  
 Depending on the form of back-up and the risks associated with data loss there are several options.
 
 Good storage media | Acceptable, for certain data | Not acceptable for long term
 |------------------|------------------|------------------|
 | Laptop, external HD, Stanford CrashPlan (faculty & staff) | CD, DVD Stanford Box, Google Drive | USB, (obsolete media) |  
 
-
-Validation of back-up copies  
-It is important that you verify and validate back-up files regularly by fully restoring them to another location and comparing them with the original. Back-up copies can be checked for completeness and integrity, for example by checking the MD5 checksum value, file size and date.
-
-How should I organise my backups?  
-If you are making your own back-ups on removable media, make sure they are well labelled and well organised. Without some management, achieving the ultimate aim of restoring lost data may prove difficult. It is also advisable to have strategies for all systems where data are held, including portable computers and devices, non-network computers and home-based computers.
+_How should I organise my backups?_  
+If you are making your own backups on removable media, make sure they are well labelled and well organised. Without some management, achieving the ultimate aim of restoring lost data may prove difficult. It is also advisable to have strategies for all systems where data are held, including portable computers and devices, non-network computers and home-based computers.
 
 
 Other recommendations:
 
-- Follow the **3 - 2 - 1 Rule:** 3 copies - 2 different types of media - 1 offsite
+- Follow the **3 - 2 - 1 rule:** 3 copies - 2 different types of media - 1 offsite
 - Copy or migrate data files to new media between two and five years after they were first created, since both optical and magnetic media are subject to physical degradation
 - Backup non-digital assets by scanning. Create digital versions of paper documentation in PDF format for long-term preservation and storage
 - Ensure that areas and rooms for storage of digital or non-digital data are fit for the purpose, structurally sound, and free from the risk of flood and fire
-
+- Validate backup copies by restoring them to another location and comparing them with the original. Backup copies can be checked for completeness and integrity, for example by checking the MD5 checksum value, file size and date.
 
 
 ## Data Transmission and Encryption
@@ -259,7 +261,7 @@ Other recommendations:
 Computer security:
 
 - software up to date, antivirus
-- practice safe usage: browsing, downloads, 
+- practice safe usage: browsing, downloads
 - strong passwords
 
 Data access:
@@ -331,6 +333,7 @@ Preservation of scholarly work and reserach data in a robust, reliable, and secu
 
 https://sdr.stanford.edu
 
+(Note: This is for finalized products, not for ongoing projects, where files and data still may be revised, amended or edited.)
 
 ## Stanford Data Management Services
 
