@@ -8,7 +8,7 @@ output:
     number_sections: yes 
 ---
 
-# Create
+# Collect
 
 ## Transcripts
 
@@ -183,7 +183,7 @@ Design around a workflow.
 For non-digital objects consider creating an index.
 
 
-# Use
+# Analyze
 
 ## Search
 
