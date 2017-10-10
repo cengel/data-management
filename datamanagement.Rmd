@@ -10,6 +10,11 @@ output:
 
 # Collect
 
+## Note taking
+
+- GoodNotes http://www.goodnotesapp.com
+- Livescribe 3 Smartpen http://www.livescribe.com/en-us/smartpen/ls3/
+
 ## Transcripts
 
 - Express Scribe http://www.nch.com.au/scribe/index.html
@@ -29,7 +34,6 @@ Reminders. Use...
 
 - Webscraping: 
 
-    - with graphical interface, e.g: http://import.io 
     - browser extension: Ncapture http://help-ncapture.qsrinternational.com/desktop/welcome/welcome.htm (with NVivo 10 or later)
     - with scripting, e.g.: https://scrapy.org
 
@@ -241,10 +245,10 @@ Depending on the form of back-up and the risks associated with data loss there a
 
 Good storage media | Acceptable, for certain data | Not acceptable for long term
 |------------------|------------------|------------------|
-| Laptop, external HD, Stanford CrashPlan (faculty & staff) | CD, DVD Stanford Box, Google Drive | USB, (obsolete media) |  
+| Laptop, external HD, (Stanford CrashPlan - faculty & staff only) | CD, DVD Stanford Box, Google Drive | USB, (obsolete media) |  
 
-_How should I organise my backups?_  
-If you are making your own backups on removable media, make sure they are well labelled and well organised. Without some management, achieving the ultimate aim of restoring lost data may prove difficult. It is also advisable to have strategies for all systems where data are held, including portable computers and devices, non-network computers and home-based computers.
+_How should I organize my backups?_  
+If you are making your own backups on removable media, make sure they are well labelled and well organized. Without some management, achieving the ultimate aim of restoring lost data may prove difficult. It is also advisable to have strategies for all systems where data are held, including portable computers and devices, non-network computers and home-based computers.
 
 
 Other recommendations:
